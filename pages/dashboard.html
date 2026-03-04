@@ -1,0 +1,348 @@
+<!--
+=========================================================
+* Material Dashboard 3 - v3.2.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/material-dashboard
+* Copyright 2024 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://www.creative-tim.com/license)
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="apple-touch-icon" sizes="76x76"
+    href="https://images.seeklogo.com/logo-png/40/2/xiaomi-new-2021-logo-png_seeklogo-400999.png">
+  <link rel="icon" type="image/png"
+    href="https://images.seeklogo.com/logo-png/40/2/xiaomi-new-2021-logo-png_seeklogo-400999.png">
+  <title>
+    XIAOMI | Learning Fidelización
+  </title>
+  <!--     Fonts and icons     -->
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,900" />
+  <!-- Nucleo Icons -->
+  <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
+  <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  <!-- Material Icons -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- CSS Files -->
+  <link id="pagestyle" href="../assets/css/material-dashboard.css?v=3.2.0" rel="stylesheet" />
+</head>
+
+<body class="g-sidenav-show  bg-gray-100">
+  <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-lg fixed-start ms-2  bg-white my-2"
+    id="sidenav-main">
+    <div class="sidenav-header">
+      <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
+        aria-hidden="true" id="iconSidenav"></i>
+      <a class="navbar-brand px-4 py-3 m-0" href="#"
+        target="_blank">
+        <img src="https://images.seeklogo.com/logo-png/40/2/xiaomi-new-2021-logo-png_seeklogo-400999.png"
+          class="navbar-brand-img" width="26" height="26" alt="main_logo">
+        <span class="ms-1 text-sm text-dark">XIAOMI</span>
+      </a>
+    </div>
+    <hr class="horizontal dark mt-0 mb-2">
+    <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active bg-gradient-dark text-white" href="../pages/dashboard.html">
+            <i class="material-symbols-rounded opacity-5">home</i>
+            <span class="nav-link-text ms-1">Inicio</span>
+          </a>
+        </li>
+
+        <!-- Clases en Vivo con submenú -->
+        <li class="nav-item">
+          <a class="nav-link text-dark collapsed" href="#clasesMenu" data-bs-toggle="collapse" aria-expanded="false">
+            <i class="material-symbols-rounded opacity-5">videocam</i>
+            <span class="nav-link-text ms-1">Clases en Vivo</span>
+          </a>
+          <div class="collapse" id="clasesMenu">
+            <ul class="nav flex-column ms-4">
+              <li class="nav-item">
+                <a class="nav-link text-dark py-1" href="#">
+                  <span class="nav-link-text ms-1 text-xs">Grabadas</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">
+            <i class="material-symbols-rounded opacity-5">emoji_events</i>
+            <span class="nav-link-text ms-1">Desafíos</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">
+            <i class="material-symbols-rounded opacity-5">photo_library</i>
+            <span class="nav-link-text ms-1">Galería</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">
+            <i class="material-symbols-rounded opacity-5">person</i>
+            <span class="nav-link-text ms-1">Perfil</span>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">
+            <i class="material-symbols-rounded opacity-5">leaderboard</i>
+            <span class="nav-link-text ms-1">Ranking</span>
+          </a>
+        </li>
+
+        <!-- Recompensas con submenú -->
+        <li class="nav-item">
+          <a class="nav-link text-dark collapsed" href="#recompensasMenu" data-bs-toggle="collapse"
+            aria-expanded="false">
+            <i class="material-symbols-rounded opacity-5">workspace_premium</i>
+            <span class="nav-link-text ms-1">Recompensas</span>
+          </a>
+          <div class="collapse" id="recompensasMenu">
+            <ul class="nav flex-column ms-4">
+              <li class="nav-item">
+                <a class="nav-link text-dark py-1" href="#">
+                  <span class="nav-link-text ms-1 text-xs">Insignias</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark py-1" href="#">
+                  <span class="nav-link-text ms-1 text-xs">Premios</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="sidenav-footer position-absolute w-100 bottom-0">
+      <div class="mx-3">
+        <a class="btn bg-gradient-dark w-100" href="../pages/sign-in.html">Cerrar Sesión</a>
+      </div>
+    </div>
+  </aside>
+  <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
+    <!-- Navbar -->
+    <nav class="navbar navbar-main navbar-expand-lg px-0 mx-3 shadow-none border-radius-xl" id="navbarBlur"
+      data-scroll="true">
+      <div class="container-fluid py-1 px-3">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
+            <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pagina</a></li>
+            <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Inicio</li>
+          </ol>
+        </nav>
+        <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+          <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+            <div class="input-group input-group-outline">
+              <label class="form-label">Buscar...</label>
+              <input type="text" class="form-control">
+            </div>
+          </div>
+          <ul class="navbar-nav d-flex align-items-center  justify-content-end">
+            <li class="nav-item dropdown pe-3 d-flex align-items-center">
+              <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="material-symbols-rounded">notifications</i>
+              </a>
+              <ul class="dropdown-menu  dropdown-menu-end  px-2 py-3 me-sm-n4" aria-labelledby="dropdownMenuButton">
+                <li class="mb-2">
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="my-auto">
+                        <img
+                          src="https://cdn.iconscout.com/icon/premium/png-256-thumb/insignias-icon-svg-download-png-5826353.png"
+                          class="avatar avatar-sm  me-3 ">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          <span class="font-weight-bold">¡Has ganado una insignia!
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          13 minutos
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a class="dropdown-item border-radius-md" href="javascript:;">
+                    <div class="d-flex py-1">
+                      <div class="my-auto">
+                        <img
+                          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6eaB1U3kWqFxWqrglNzrNcK6b4P1EV55Cyw&s"
+                          class="avatar avatar-sm bg-gradient-dark  me-3 ">
+                      </div>
+                      <div class="d-flex flex-column justify-content-center">
+                        <h6 class="text-sm font-weight-normal mb-1">
+                          <span class="font-weight-bold">Tienes <b>1</b> premio disponible
+                        </h6>
+                        <p class="text-xs text-secondary mb-0">
+                          <i class="fa fa-clock me-1"></i>
+                          1 dia
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    <div class="container-fluid py-4 px-4">
+
+      <!-- Título -->
+      <div class="row mb-3">
+        <div class="col-12">
+          <h4 class="font-weight-bolder mb-0">BIENVENIDO A XIAOMI SCHOOL</h4>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div class="row mb-4">
+        <div class="col-12">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item">
+                <div class="border-radius-xl d-flex align-items-center"
+                  style="background-image: url('https://www.xiaomiadictos.com/wp-content/uploads/2021/04/cambio-logo-xiaomi.jpg'); background-size: cover; background-position: center; height: 120px; position: relative;">
+                  <span class="mask bg-gradient-dark border-radius-xl"></span>
+                  <div class="container" style="position: relative; z-index: 1;">
+                    <h5 class="text-white mb-0">Nuevos Cursos Disponibles</h5>
+                    <p class="text-white opacity-8 mb-0 text-sm">Descubre el ecosistema Xiaomi y certifica tu
+                      conocimiento.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="border-radius-xl d-flex align-items-center"
+                  style="background-image: url('https://dplnews.com/wp-content/uploads/2021/05/dplnews_xiaomi_mc280521.png'); background-size: cover; background-position: center; height: 120px; position: relative;">
+                  <span class="mask bg-gradient-dark border-radius-xl"></span>
+                  <div class="container" style="position: relative; z-index: 1;">
+                    <h5 class="text-white mb-0">Conviértete en Experto Xiaomi</h5>
+                    <p class="text-white opacity-8 mb-0 text-sm">Aprende sobre nuestros productos y gana puntos de
+                      fidelización.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item active">
+                <div class="border-radius-xl d-flex align-items-center"
+                  style="background-image: url('https://www.hibridosyelectricos.com/uploads/s1/10/81/81/0/xiaomi.jpeg'); background-size: cover; background-position: center; height: 120px; position: relative;">
+                  <span class="mask bg-gradient-dark border-radius-xl"></span>
+                  <div class="container" style="position: relative; z-index: 1;">
+                    <h5 class="text-white mb-0">Completa Desafíos y Gana Premios</h5>
+                    <p class="text-white opacity-8 mb-0 text-sm">Supera retos, sube en el ranking y canjea tus
+                      recompensas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards -->
+      <div class="row mb-4">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card border-radius-xl overflow-hidden" style="cursor:pointer;">
+            <div class="position-relative"
+              style="background-image: url('https://www.hibridosyelectricos.com/uploads/s1/10/81/81/0/xiaomi.jpeg'); background-size: cover; background-position: center; height: 380px;">
+              <span class="mask bg-gradient-dark opacity-5 border-radius-xl"></span>
+              <div class="position-absolute bottom-0 p-3" style="z-index:1;">
+                <h5 class="text-white font-weight-bolder mb-0">Clases en Vivo</h5>
+                <p class="text-white text-sm opacity-8 mb-0">Entrena tus habilidades</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card border-radius-xl overflow-hidden" style="cursor:pointer;">
+            <div class="position-relative"
+              style="background-image: url('https://dplnews.com/wp-content/uploads/2021/05/dplnews_xiaomi_mc280521.png'); background-size: cover; background-position: center; height: 380px;">
+              <span class="mask bg-gradient-dark opacity-5 border-radius-xl"></span>
+              <div class="position-absolute bottom-0 p-3" style="z-index:1;">
+                <h5 class="text-white font-weight-bolder mb-0">Desafíos Xiaomi</h5>
+                <p class="text-white text-sm opacity-8 mb-0">Prueba tus conocimientos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card border-radius-xl overflow-hidden" style="cursor:pointer;">
+            <div class="position-relative"
+              style="background-image: url('https://www.xiaomiadictos.com/wp-content/uploads/2021/04/cambio-logo-xiaomi.jpg'); background-size: cover; background-position: center; height: 380px;">
+              <span class="mask bg-gradient-dark opacity-5 border-radius-xl"></span>
+              <div class="position-absolute bottom-0 p-3" style="z-index:1;">
+                <h5 class="text-white font-weight-bolder mb-0">Galería</h5>
+                <p class="text-white text-sm opacity-8 mb-0">Refresca tus aprendizajes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer py-4">
+        <div class="container-fluid">
+          <div class="row align-items-center justify-content-lg-between">
+            <div class="col-lg-6 mb-lg-0 mb-4">
+              <div class="copyright text-center text-sm text-dark text-lg-start">
+                ©
+                <script>document.write(new Date().getFullYear())</script>,
+                Corporativo Overall <i class="fa fa-heart" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </main>
+  <!--   Core JS Files   -->
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.min.js"></script>
+  <script src="../assets/js/plugins/smooth-scrollbar.min.js"></script>
+  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <script>
+    var win = navigator.platform.indexOf('Win') > -1;
+    if (win && document.querySelector('#sidenav-scrollbar')) {
+      var options = {
+        damping: '0.5'
+      }
+      Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+    }
+  </script>
+  <!-- Github buttons -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/material-dashboard.min.js?v=3.2.0"></script>
+</body>
+
+</html>
