@@ -29160,3 +29160,18 @@ pre[class*=language-] {
   background-blend-mode: overlay !important;
   background-color: rgba(255,255,255,0.75) !important; /* más alto = imagen más tenue */
 }
+
+ .sidenav-toggler-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    padding: 4px;
+  }
+  .sidenav-toggler-line {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: #344767;
+    border-radius: 2px;
+  }

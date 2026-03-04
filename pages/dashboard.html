@@ -43,10 +43,11 @@
   <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-radius-lg fixed-start ms-2  bg-white my-2"
     id="sidenav-main">
     <div class="sidenav-header">
-      <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
-        aria-hidden="true" id="iconSidenav"></i>
-      <a class="navbar-brand px-4 py-3 m-0" href="#"
-        target="_blank">
+      <button class="btn bg-gradient-dark position-absolute end-0 top-0 mt-2 me-2 d-xl-none px-3 py-2" id="iconSidenav"
+        style="z-index:10;">
+        <i class="fas fa-times text-white fa-lg"></i>
+      </button>
+      <a class="navbar-brand px-4 py-3 m-0" href="#" target="_blank">
         <img src="https://images.seeklogo.com/logo-png/40/2/xiaomi-new-2021-logo-png_seeklogo-400999.png"
           class="navbar-brand-img" width="26" height="26" alt="main_logo">
         <span class="ms-1 text-sm text-dark">XIAOMI</span>
@@ -142,6 +143,15 @@
     <nav class="navbar navbar-main navbar-expand-lg px-0 mx-3 shadow-none border-radius-xl" id="navbarBlur"
       data-scroll="true">
       <div class="container-fluid py-1 px-3">
+        <div class="d-xl-none me-3 d-flex align-items-center">
+          <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+            <div class="sidenav-toggler-inner">
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+            </div>
+          </a>
+        </div>
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
             <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Pagina</a></li>
